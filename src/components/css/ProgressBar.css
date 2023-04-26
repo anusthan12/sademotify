@@ -1,0 +1,39 @@
+.progress {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.slider {
+    appearance: none;
+    width: 100px; 
+    height: 4px; 
+    background: #d3d3d3; 
+    outline: none;
+    border-radius: 9999px;
+}
+
+.slider:hover {
+    opacity: 1; 
+}
+
+.slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 8px; 
+    height: 8px; 
+    background: #2a8eb9; 
+    border-radius: 9999px;
+}
+
+.slider::-moz-range-thumb {
+    width: 4px; 
+    height: 4px; 
+    background: #2a8eb9; 
+    border-radius: 9999px;
+}
+
+.tooltip {
+    color: #d3d3d3;
+    font-size: 0.8rem;
+}
